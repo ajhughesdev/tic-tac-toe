@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.board-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 150px);
+  border: 10px solid black;
+}
+
+.square {
+  border: 2px solid black;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
